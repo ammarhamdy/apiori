@@ -1,0 +1,17 @@
+sub item:
+   ('milke',)                    	5
+   ('bread',)                    	4
+   ('eeg',)                      	4
+   ('juice',)                    	3
+   ('butter',)                   	2
+   ('coffee',)                   	3
+   ('cookies',)                  	2
+
+sub item:
+   ('bread', 'milke')            	4
+   ('milke', 'eeg')              	3
+   ('bread', 'eeg')              	3
+
+sub item:
+   ('bread', 'milke', 'eeg')     	3
+
